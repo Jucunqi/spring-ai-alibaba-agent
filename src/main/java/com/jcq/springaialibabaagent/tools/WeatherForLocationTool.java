@@ -1,4 +1,4 @@
-package com.jcq.springaialibabaagent.agent.tools;
+package com.jcq.springaialibabaagent.tools;
 
 import org.springframework.ai.chat.model.ToolContext;
 import org.springframework.ai.tool.annotation.ToolParam;

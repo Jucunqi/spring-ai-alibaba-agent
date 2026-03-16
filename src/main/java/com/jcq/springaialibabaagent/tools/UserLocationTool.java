@@ -1,4 +1,4 @@
-package com.jcq.springaialibabaagent.agent.tools;
+package com.jcq.springaialibabaagent.tools;
 
 import com.alibaba.cloud.ai.graph.RunnableConfig;
 import org.springframework.ai.chat.model.ToolContext;
