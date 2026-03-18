@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: pring-ai-alibaba-agent
+
+logging:
+  level:
+    com.alibaba.cloud.ai: debug
