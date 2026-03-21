@@ -1,0 +1,17 @@
+server:
+  port: 8088
+  servlet:
+    encoding:
+      enabled: true
+      force: true
+      charset: UTF-8
+
+spring:
+  application:
+    name: local-mcp-server
+  ai:
+    mcp:
+      server:
+        type: async
+        name: my-mcp-server
+        version: 1.0.0
