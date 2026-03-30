@@ -54,7 +54,7 @@ class SimpleTest {
 class WeatherTool implements BiFunction<String, ToolContext, String> {
     @Override
     public String apply(String city, ToolContext toolContext) {
-        return city + "今天天气非常好！aaa";
+        return city + "今天天气非常好！";
     }
 
 }
