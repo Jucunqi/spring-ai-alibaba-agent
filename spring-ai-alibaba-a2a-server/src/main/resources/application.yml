@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: spring-ai-alibaba-a2a-server
+  ai:
+    dashscope:
+      api-key: ${AliQwen_API}
+    alibaba:
+      a2a:
+        nacos:
+          server-addr: 127.0.0.1:8848
+          username: nacos
+          password: nacos
+          registry:
+            enabled: true # 启用服务注册（注册本地 Agent）
+        server:
+          version: 1.0.0
+          card:
+            name: jokeAgent  # 必须与Bean名称一致
+            description: 专门讲笑话的智能体
+server:
+  port: 9091
