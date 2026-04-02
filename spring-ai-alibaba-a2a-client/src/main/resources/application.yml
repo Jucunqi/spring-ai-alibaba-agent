@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: spring-ai-alibaba-a2a-client
+  ai:
+    dashscope:
+      api-key: ${AliQwen_API}
+    alibaba:
+      a2a:
+        nacos:
+          server-addr: 127.0.0.1:8848
+          username: nacos
+          password: nacos
+          discovery:
+            enabled: true # 启用服务发现
+
+server:
+  port: 9092
